@@ -1,6 +1,7 @@
 <?php
 require_once 'solution.php';
 $factory = new ElectronicPartFactory;
+
 $screen1 = $factory->create('Screen', array(
     "manufacturer" => 'Samsung', 
     "price" => 723, 
@@ -8,9 +9,29 @@ $screen1 = $factory->create('Screen', array(
     "panel" => 'PLS', 
     "size" => 24
 ));
-$screen2 = new Screen('Samsung', 620, 'S22F350FH', 'TN', 21.5);
-$screen3 = new Screen('Philips', 1517, '273V5LHAB', 'TFT', 27);
-$screen4 = new Screen('Samsung', 2074, 'C27F591FD', 'VA', 27);
+$screen2 = $factory->create('Screen', array(
+    "manufacturer" => 'Samsung', 
+    "price" => 620, 
+    "model" => 'S22F350FH', 
+    "panel" => 'TN', 
+    "size" => 21.5
+));
+
+$screen3 = $factory->create('Screen', array(
+    "manufacturer" => 'Philips', 
+    "price" => 1517, 
+    "model" => '273V5LHAB', 
+    "panel" => 'TFT', 
+    "size" => 27
+));
+
+$screen4 = $factory->create('Screen', array(
+    "manufacturer" => 'Samsung', 
+    "price" => 2074, 
+    "model" => 'C27F591FD', 
+    "panel" => 'VA', 
+    "size" => 27
+));
 
 $mouse1 = new Mouse('Microsoft', 129, 'Mobile Mouse 1850', false);
 $mouse2 = new Mouse('LogiTech', 799, 'MX Master', false);
@@ -58,15 +79,6 @@ $pur2 = new purchase($screen4, $mouse3, $keyboard1, $computer3);
 $pur3 = new purchase($screen3, $mouse2, $keyboard4, $computer1);
 $pur4 = new purchase($screen2, $mouse1, $keyboard2, $computer2);
 
-echo $screen1->getSpecs()."\n"; // Screen manufacturer: Samsung, model: S24F350FH, panel: PLS, size: 24, Price: 723
-echo $mouse2->getSpecs()."\n"; // Mouse manufacturer: LogiTech, model: MX Master, isWired: false, Price: 799
-echo $computer3->getSpecs()."\n"; // Computer manufacturer: Intel, manufacturer: Intel, price: 1580, model: , motherboard: , processor: Intel Core i3-7100 3.9Ghz, hardDrive: 500GB 7200RPM, ram: 4GB DDR4 2100Mhz, graphicCard: Intel Skylake GT2 HD Graphics 630
-echo $keyboard1->getSpecs()."\n"; // Keyboard manufacturer: Microsoft, model: Natural Ergonomic 4000, isWired: true, Price: 325
-
-echo $pur1->getFullPurchaseDetails()."\n";
-echo $pur2->getFullPurchaseDetails()."\n";
-echo $pur3->getFullPurchaseDetails()."\n";
-echo $pur4->getFullPurchaseDetails()."\n";
 
 
 /* 
@@ -92,3 +104,14 @@ echo $pur4->getFullPurchaseDetails()."\n";
 
 */
 ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <?= $pur1->getFullPurchaseDetailsHTML() ?>
+</body>
+</html>
