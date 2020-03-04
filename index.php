@@ -62,7 +62,20 @@ echo $pur4->getFullPurchaseDetails();
     Keyboard manufacturer: Microsoft, Price: 325
     Computer manufacturer: GIGABYTE, model: , Price: 3059
     
-    Screen manufacturer: Samsung, model: C27F591FD, Price: 2074<br>Mouse manufacturer: LogiTech, model: M185, Price: 128<br>Keyboard manufacturer: Microsoft, Price: 325<br>Computer manufacturer: Intel, model: , Price: 1580<br><br>Screen manufacturer: Philips, model: 273V5LHAB, Price: 1517<br>Mouse manufacturer: LogiTech, model: MX Master, Price: 799<br>Keyboard manufacturer: Corsair, Price: 799<br>Computer manufacturer: GIGABYTE, model: , Price: 3059<br><br>Screen manufacturer: Samsung, model: S22F350FH, Price: 620<br>Mouse manufacturer: Microsoft, model: Mobile Mouse 1850, Price: 129<br>Keyboard manufacturer: Logitech, Price: 285<br>Computer manufacturer: AMD, model: , Price: 2418<br><br>
+    Screen manufacturer: Samsung, model: C27F591FD, Price: 2074
+    Mouse manufacturer: LogiTech, model: M185, Price: 128
+    Keyboard manufacturer: Microsoft, Price: 325
+    Computer manufacturer: Intel, model: , Price: 1580
+    
+    Screen manufacturer: Philips, model: 273V5LHAB, Price: 1517
+    Mouse manufacturer: LogiTech, model: MX Master, Price: 799
+    Keyboard manufacturer: Corsair, Price: 799
+    Computer manufacturer: GIGABYTE, model: , Price: 3059
+    
+    Screen manufacturer: Samsung, model: S22F350FH, Price: 620
+    Mouse manufacturer: Microsoft, model: Mobile Mouse 1850, Price: 129
+    Keyboard manufacturer: Logitech, Price: 285
+    Computer manufacturer: AMD, model: , Price: 2418
 
 */
 ?>
