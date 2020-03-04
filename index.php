@@ -52,7 +52,7 @@ $pur2 = new purchase($screen4, $mouse3, $keyboard1, $computer3);
 $pur3 = new purchase($screen3, $mouse2, $keyboard4, $computer1);
 $pur4 = new purchase($screen2, $mouse1, $keyboard2, $computer2);
 
-echo $screen1->getSpecs()."\n"; // Screen manufacturer: Samsung, model: S24F350FH, Price: 723
+echo $screen1->getSpecs()."\n"; // Screen manufacturer: Samsung, model: S24F350FH, panel: PLS, Price: 723
 echo $mouse2->getSpecs()."\n"; // Mouse manufacturer: LogiTech, model: MX Master, Price: 799
 echo $computer3->getSpecs()."\n"; // Computer manufacturer: Intel, model: , Price: 1580
 echo $keyboard1->getSpecs()."\n"; // Keyboard manufacturer: Microsoft, Price: 325
@@ -63,22 +63,23 @@ echo $pur3->getFullPurchaseDetails()."\n";
 echo $pur4->getFullPurchaseDetails()."\n";
 
 
-/* Screen manufacturer: Samsung, model: S24F350FH, Price: 723
+/* 
+    Screen manufacturer: Samsung, model: S24F350FH, panel: PLS, Price: 723
     Mouse manufacturer: Microsoft, model: Mobile Mouse 1850, Price: 129
     Keyboard manufacturer: Microsoft, Price: 325
     Computer manufacturer: GIGABYTE, model: , Price: 3059
-    
-    Screen manufacturer: Samsung, model: C27F591FD, Price: 2074
+
+    Screen manufacturer: Samsung, model: C27F591FD, panel: VA, Price: 2074
     Mouse manufacturer: LogiTech, model: M185, Price: 128
     Keyboard manufacturer: Microsoft, Price: 325
     Computer manufacturer: Intel, model: , Price: 1580
-    
-    Screen manufacturer: Philips, model: 273V5LHAB, Price: 1517
+
+    Screen manufacturer: Philips, model: 273V5LHAB, panel: TFT, Price: 1517
     Mouse manufacturer: LogiTech, model: MX Master, Price: 799
     Keyboard manufacturer: Corsair, Price: 799
     Computer manufacturer: GIGABYTE, model: , Price: 3059
-    
-    Screen manufacturer: Samsung, model: S22F350FH, Price: 620
+
+    Screen manufacturer: Samsung, model: S22F350FH, panel: TN, Price: 620
     Mouse manufacturer: Microsoft, model: Mobile Mouse 1850, Price: 129
     Keyboard manufacturer: Logitech, Price: 285
     Computer manufacturer: AMD, model: , Price: 2418
