@@ -54,7 +54,7 @@ $pur4 = new purchase($screen2, $mouse1, $keyboard2, $computer2);
 
 echo $screen1->getSpecs()."\n"; // Screen manufacturer: Samsung, model: S24F350FH, panel: PLS, size: 24, Price: 723
 echo $mouse2->getSpecs()."\n"; // Mouse manufacturer: LogiTech, model: MX Master, isWired: false, Price: 799
-echo $computer3->getSpecs()."\n"; // Computer manufacturer: Intel, model: , Price: 1580
+echo $computer3->getSpecs()."\n"; // Computer manufacturer: Intel, manufacturer: Intel, price: 1580, model: , motherboard: , processor: Intel Core i3-7100 3.9Ghz, hardDrive: 500GB 7200RPM, ram: 4GB DDR4 2100Mhz, graphicCard: Intel Skylake GT2 HD Graphics 630
 echo $keyboard1->getSpecs()."\n"; // Keyboard manufacturer: Microsoft, model: Natural Ergonomic 4000, isWired: true, Price: 325
 
 echo $pur1->getFullPurchaseDetails()."\n";
@@ -67,22 +67,22 @@ echo $pur4->getFullPurchaseDetails()."\n";
     Screen manufacturer: Samsung, model: S24F350FH, panel: PLS, size: 24, Price: 723
     Mouse manufacturer: Microsoft, model: Mobile Mouse 1850, isWired: false, Price: 129
     Keyboard manufacturer: Microsoft, model: Natural Ergonomic 4000, isWired: true, Price: 325
-    Computer manufacturer: GIGABYTE, model: , Price: 3059
+    Computer manufacturer: GIGABYTE, manufacturer: GIGABYTE, price: 3059, model: , motherboard: GA-Z170-HD3, processor: INTEL I7-6700, hardDrive: WD1TB, ram: 8GB DDR4 Hyper-X, graphicCard: Intel® HD Graphics 530
 
     Screen manufacturer: Samsung, model: C27F591FD, panel: VA, size: 27, Price: 2074
     Mouse manufacturer: LogiTech, model: M185, isWired: true, Price: 128
     Keyboard manufacturer: Microsoft, model: Natural Ergonomic 4000, isWired: true, Price: 325
-    Computer manufacturer: Intel, model: , Price: 1580
+    Computer manufacturer: Intel, manufacturer: Intel, price: 1580, model: , motherboard: , processor: Intel Core i3-7100 3.9Ghz, hardDrive: 500GB 7200RPM, ram: 4GB DDR4 2100Mhz, graphicCard: Intel Skylake GT2 HD Graphics 630
 
     Screen manufacturer: Philips, model: 273V5LHAB, panel: TFT, size: 27, Price: 1517
     Mouse manufacturer: LogiTech, model: MX Master, isWired: false, Price: 799
     Keyboard manufacturer: Corsair, model: K95, isWired: true, Price: 799
-    Computer manufacturer: GIGABYTE, model: , Price: 3059
+    Computer manufacturer: GIGABYTE, manufacturer: GIGABYTE, price: 3059, model: , motherboard: GA-Z170-HD3, processor: INTEL I7-6700, hardDrive: WD1TB, ram: 8GB DDR4 Hyper-X, graphicCard: Intel® HD Graphics 530
 
     Screen manufacturer: Samsung, model: S22F350FH, panel: TN, size: 21.5, Price: 620
     Mouse manufacturer: Microsoft, model: Mobile Mouse 1850, isWired: false, Price: 129
     Keyboard manufacturer: Logitech, model: G105, isWired: true, Price: 285
-    Computer manufacturer: AMD, model: , Price: 2418
+    Computer manufacturer: AMD, manufacturer: AMD, price: 2418, model: , motherboard: ASUS A88XM-A/USB3.1, processor: AMD A-Series Quad Core A10-7870K 3.9GHz, hardDrive: SanDisk SSD Plus 240GB, ram: Kingston 8GB DDR3 1600MHz, graphicCard: AMD Radeon R7 Graphics
 
 */
 ?>
